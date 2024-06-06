@@ -18,6 +18,8 @@ class food extends Model
         'category_id',
         'quality',
         'quality_id',
+        'invetory',
+        'invetory_id',
     ];
 
     public function categories(){
