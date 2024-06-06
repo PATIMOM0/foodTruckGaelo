@@ -16,6 +16,8 @@ class food extends Model
         'price_sale',
         'description',
         'category_id',
+        'quality',
+        'quality_id',
     ];
 
     public function categories(){
